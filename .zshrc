@@ -1,13 +1,9 @@
-# Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 export LS_ICONS="exa"
 
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="aussiegeek"
-# ZSH_THEME="jreese"
-ZSH_THEME="cloud"
+ZSH_THEME="half-life"
 
-# Plugins
+
 plugins=(
   aws
   dircycle
@@ -19,15 +15,11 @@ plugins=(
   git-flow-avh
   npm
   yarn
+  web-search
 )
 
 source $ZSH/oh-my-zsh.sh
 
-# Aliases
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias ls="exa"
+alias cat="bat"
 alias ooff="shutdown now"
-
-alias l="lsd"
-alias ll="lsd -l"
-alias la="lsd -a"
