@@ -1,7 +1,8 @@
 export ZSH=$HOME/.oh-my-zsh
 export LS_ICONS="exa"
 
-ZSH_THEME="half-life"
+# ZSH_THEME="agnoster"
+ZSH_THEME="refined"
 
 
 plugins=(
