@@ -23,4 +23,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls="exa"
 alias cat="bat"
+
+alias mv="mv -i"
+alias cp="cp -i"
+alias rm="rm -i"
+
+
 alias ooff="shutdown now"
